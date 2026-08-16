@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Makes website responsive on mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="DecodeLabs Project 2 - Responsive Web Layout">
+
+    <title>DecodeLabs | Project 2</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         HEADER / NAVIGATION
+         ===================================================== -->
+
+    <header class="site-header">
+
+        <nav class="navbar container">
+
+            <!-- Logo -->
+            <a href="#home" class="logo">
+                Decode<span>Labs</span>
+            </a>
+
+            <!-- Hidden checkbox for mobile menu -->
+            <input
+                type="checkbox"
+                id="menu-toggle"
+                class="menu-toggle"
+            >
+
+            <!-- Hamburger button -->
+            <label
+                for="menu-toggle"
+                class="menu-button"
+                aria-label="Open navigation menu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Navigation links -->
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#project">Project</a>
+                </li>
+
+                <li>
+                    <a href="#features">Features</a>
+                </li>
+
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+         ===================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             HERO SECTION
+             ================================================= -->
+
+        <section id="home" class="hero">
+
+            <div class="container hero-content">
+
+                <!-- Hero text -->
+                <div class="hero-text">
+
+                    <p class="eyebrow">
+                        INDUSTRIAL TRAINING KIT • BATCH 2026
+                    </p>
+
+                    <h1>
+                        Responsive
+                        <span>Web Layout</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        A flexible frontend experience designed to
+                        adapt smoothly from large desktop screens to
+                        tablets and mobile devices.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a href="#project"
+                           class="btn primary-btn">
+                            Explore Project
+                        </a>
+
+                        <a href="#features"
+                           class="btn secondary-btn">
+                            View Features
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Device illustration -->
+                <div class="device-preview">
+
+                    <!-- Desktop -->
+                    <div class="desktop-device">
+
+                        <div class="browser-bar">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <div class="screen-content">
+
+                            <div class="screen-header"></div>
+
+                            <div class="screen-line large"></div>
+
+                            <div class="screen-line"></div>
+
+                            <div class="screen-cards">
+
+                                <div></div>
+                                <div></div>
+                                <div></div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Mobile -->
+                    <div class="mobile-device">
+
+                        <div class="mobile-speaker"></div>
+
+                        <div class="mobile-screen">
+
+                            <div class="mobile-line"></div>
+
+                            <div class="mobile-line short"></div>
+
+                            <div class="mobile-card"></div>
+
+                            <div class="mobile-card"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             PROJECT SECTION
+             ================================================= -->
+
+        <section id="project" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        PROJECT 02
+                    </p>
+
+                    <h2>
+                        Design once. Adapt everywhere.
+                    </h2>
+
+                    <p>
+                        This project demonstrates how CSS layout
+                        techniques and media queries can transform
+                        one webpage into a professional experience
+                        across different screen sizes.
+                    </p>
+
+                </div>
+
+
+                <!-- Project cards -->
+
+                <div class="project-grid">
+
+
+                    <!-- Card 1 -->
+                    <article class="info-card">
+
+                        <div class="card-icon">
+                            01
+                        </div>
+
+                        <h3>
+                            Fluid Layout
+                        </h3>
+
+                        <p>
+                            Flexible containers, percentages,
+                            max-widths and CSS Grid allow content
+                            to use available space without fixed
+                            desktop dimensions.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Card 2 -->
+                    <article class="info-card">
+
+                        <div class="card-icon">
+                            02
+                        </div>
+
+                        <h3>
+                            Responsive Navigation
+                        </h3>
+
+                        <p>
+                            The desktop navigation changes into a
+                            CSS-only hamburger menu on smaller
+                            screens for easier mobile interaction.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Card 3 -->
+                    <article class="info-card">
+
+                        <div class="card-icon">
+                            03
+                        </div>
+
+                        <h3>
+                            Media Queries
+                        </h3>
+
+                        <p>
+                            Breakpoints adjust typography, spacing,
+                            grids and navigation so the design
+                            remains clear on tablets and phones.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             FEATURES SECTION
+             ================================================= -->
+
+        <section id="features" class="dark-section">
+
+            <div class="container">
+
+                <div class="section-heading dark-heading">
+
+                    <p class="eyebrow">
+                        RESPONSIVE FEATURES
+                    </p>
+
+                    <h2>
+                        Built for every screen.
+                    </h2>
+
+                    <p>
+                        Resize the browser window to see the layout
+                        automatically adapt.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-grid">
+
+
+                    <!-- Feature 1 -->
+                    <article class="feature-card">
+
+                        <div class="feature-symbol">
+                            ▦
+                        </div>
+
+                        <h3>
+                            CSS Grid
+                        </h3>
+
+                        <p>
+                            Cards and major page areas automatically
+                            change their columns as the viewport
+                            becomes smaller.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Feature 2 -->
+                    <article class="feature-card">
+
+                        <div class="feature-symbol">
+                            ↔
+                        </div>
+
+                        <h3>
+                            Flexible Spacing
+                        </h3>
+
+                        <p>
+                            Relative widths, max-width containers and
+                            responsive padding prevent content from
+                            becoming cramped.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Feature 3 -->
+                    <article class="feature-card">
+
+                        <div class="feature-symbol">
+                            ☰
+                        </div>
+
+                        <h3>
+                            Mobile Menu
+                        </h3>
+
+                        <p>
+                            A CSS-only hamburger navigation appears
+                            on mobile without requiring JavaScript.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Feature 4 -->
+                    <article class="feature-card">
+
+                        <div class="feature-symbol">
+                            Aa
+                        </div>
+
+                        <h3>
+                            Fluid Typography
+                        </h3>
+
+                        <p>
+                            CSS clamp() scales major headings smoothly
+                            between desktop and mobile sizes.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             BREAKPOINT SECTION
+             ================================================= -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        BREAKPOINT STRATEGY
+                    </p>
+
+                    <h2>
+                        One design, multiple experiences.
+                    </h2>
+
+                </div>
+
+
+                <div class="breakpoint-table">
+
+
+                    <!-- Table heading -->
+                    <div class="breakpoint-row table-head">
+
+                        <span>
+                            Device
+                        </span>
+
+                        <span>
+                            Viewport
+                        </span>
+
+                        <span>
+                            Layout Behavior
+                        </span>
+
+                    </div>
+
+
+                    <!-- Desktop -->
+                    <div class="breakpoint-row">
+
+                        <span class="device-name">
+                            Desktop
+                        </span>
+
+                        <span>
+                            851px and above
+                        </span>
+
+                        <span>
+                            Multi-column layout and full navigation
+                        </span>
+
+                    </div>
+
+
+                    <!-- Tablet -->
+                    <div class="breakpoint-row">
+
+                        <span class="device-name">
+                            Tablet
+                        </span>
+
+                        <span>
+                            600px – 850px
+                        </span>
+
+                        <span>
+                            Reduced columns and flexible spacing
+                        </span>
+
+                    </div>
+
+
+                    <!-- Mobile -->
+                    <div class="breakpoint-row">
+
+                        <span class="device-name">
+                            Mobile
+                        </span>
+
+                        <span>
+                            Below 600px
+                        </span>
+
+                        <span>
+                            Single-column content and hamburger menu
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SKILLS SECTION
+             ================================================= -->
+
+        <section id="skills" class="skills-section">
+
+            <div class="container skills-layout">
+
+
+                <div>
+
+                    <p class="eyebrow">
+                        KEY SKILLS
+                    </p>
+
+                    <h2>
+                        Responsive thinking.
+                    </h2>
+
+                    <p class="section-text">
+
+                        Project 2 focuses on responsive design
+                        and CSS layout techniques, helping
+                        transform fixed desktop concepts into
+                        fluid interfaces.
+
+                    </p>
+
+                </div>
+
+
+                <div class="skill-list">
+
+
+                    <!-- Skill 1 -->
+                    <div class="skill">
+
+                        <span class="skill-icon">
+                            MQ
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Media Queries
+                            </h3>
+
+                            <p>
+                                Change layouts according to
+                                screen width.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Skill 2 -->
+                    <div class="skill">
+
+                        <span class="skill-icon">
+                            GR
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                CSS Grid
+                            </h3>
+
+                            <p>
+                                Create flexible multi-column
+                                page structures.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Skill 3 -->
+                    <div class="skill">
+
+                        <span class="skill-icon">
+                            FL
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Fluid Design
+                            </h3>
+
+                            <p>
+                                Use flexible dimensions instead
+                                of rigid sizes.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             ABOUT SECTION
+             ================================================= -->
+
+        <section id="about" class="section">
+
+            <div class="container about-box">
+
+                <div>
+
+                    <p class="eyebrow">
+                        ABOUT PROJECT 02
+                    </p>
+
+                    <h2>
+                        From desktop to mobile.
+                    </h2>
+
+                </div>
+
+
+                <p>
+
+                    Responsive development is the bridge between
+                    a visual design and a real-world user experience.
+                    This project uses CSS media queries, flexible
+                    layouts, responsive navigation and careful
+                    spacing to keep the interface readable at
+                    different screen sizes.
+
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <a href="#home"
+                   class="logo footer-logo">
+
+                    Decode<span>Labs</span>
+
+                </a>
+
+                <p>
+                    Frontend Development • Project 2 • Batch 2026
+                </p>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <p>
+                    📞 +91 89330 06408
+                </p>
+
+                <p>
+                    ✉ decodelabs.tech@gmail.com
+                </p>
+
+                <p>
+                    📍 Islamabad , Pakistan
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            <p>
+                © 2026 DecodeLabs.
+                Project 2 — Responsive Web Layout.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
